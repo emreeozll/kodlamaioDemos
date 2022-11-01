@@ -1,0 +1,33 @@
+package kodlamaioAppdataAccess;
+
+import kodlamaioAppentities.Category;
+
+public class JdbcCategoryDao implements BaseCategoryDao {
+
+	@Override
+	public void add(Category category) {
+		System.out.println("category succesfuly added to JDBC : " + category.getId() + "-)" + category.getCategoryName());
+		BaseCategoryDao.categoryArrayList.add(category);
+	}
+
+	@Override
+	public void delete(Category category) {
+		System.out.println("category succesfuly removed to JDBC : " + category.getId() + "-)" + category.getCategoryName());
+        BaseCategoryDao.categoryArrayList.remove(category);
+	}
+
+	@Override
+	public void update(Category category) {
+		System.out.println("category succesfuly uptaded to JDBC : : " + category.getId() + "-)" + category.getCategoryName());
+
+	}
+
+	@Override
+	public void getAllCategoryList() {
+		for (int i = 0; i < BaseCategoryDao.categoryArrayList.size(); i++) {
+			System.out.println(BaseCategoryDao.categoryArrayList.get(i).getCategoryName());
+		}
+
+	}
+
+}
