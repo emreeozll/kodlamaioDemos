@@ -1,7 +1,7 @@
 # kodlamaioDemos
  oopWithNLayered 
 
-İsterlerin gerektirdiği kodlamaları tamamladım
+İsterlerin gerektirdiği kodlamaları tamamladım.
 
 Gereksinimler;
 kodlama.io web sitesinin ana sayfasında bulunan eğitmen, kategori ve kurs bölümlerini katmanlı mimaride kodlamak istiyoruz.
@@ -11,7 +11,6 @@ kodlama.io web sitesinin ana sayfasında bulunan eğitmen, kategori ve kurs böl
 Çoklu loglama yapısını simule ediniz.
 
 Aşağıdaki isterleri gerçekleştiriniz.
-
 Kurs ismi tekrar edemez
 Kategori ismi tekrar edemez
 Bir kursun fiyatı 0 dan küçük olamaz
