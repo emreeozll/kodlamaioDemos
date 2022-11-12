@@ -1,7 +1,7 @@
 # kodlamaioDemos
  oopWithNLayered 
 
-İsterlerin gerektirdiği kodlamaları tamamladım.
+Proje: kodlamaioDemos 
 
 Gereksinimler;
 kodlama.io web sitesinin ana sayfasında bulunan eğitmen, kategori ve kurs bölümlerini katmanlı mimaride kodlamak istiyoruz.
