@@ -6,7 +6,7 @@
 Gereksinimler;
 kodlama.io web sitesinin ana sayfasında bulunan eğitmen, kategori ve kurs bölümlerini katmanlı mimaride kodlamak istiyoruz.
 
-Önceki derste yaptığımız tekniklerle hem jdbc hem de hibernate üzerinde yazmış gibi simüle ediniz.
+Farklı veritabanı işlem yöntemleri veya teknikleri hem jdbc hem de hibernate üzerinde yazmış gibi simüle ediniz.
 
 Çoklu loglama yapısını simule ediniz.
 
